@@ -1,4 +1,6 @@
-import bcrypt from 'bcrypt';
+// import bcrypt from 'bcrypt';
+// import bcrypt from 'bcryptjs';
+import bcrypt from '@node-rs/bcrypt';
 import postgres from 'postgres';
 import { invoices, customers, revenue, users } from '../lib/placeholder-data';
 
